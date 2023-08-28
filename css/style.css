@@ -43,3 +43,27 @@
   margin-top: -10px;
   font-size: 14px;
 }
+.head_sec_list {
+  list-style-type: none;
+}
+.head_sec_right {
+  position: relative;
+}
+.head_sec_right input {
+  position: relative;
+  width: 450px;
+  height: 40px;
+  padding: 2px 40px 2px 10px;
+  border: 1px solid rgb(188, 188, 188);
+  border-radius: 10px;
+  background-color: transparent;
+}
+.head_sec_right input::placeholder {
+  padding-left: 25px;
+}
+.head_sec_right i {
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  left: 15px;
+}
